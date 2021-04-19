@@ -1,0 +1,81 @@
+body {
+  
+  
+    background-image:url(light%20grey%20background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+    
+    
+}
+h1 {
+     font-family: sans-serif;
+    color: MidnightBlue;
+    font-weight: bold;
+  
+    font-size: 40px;
+      
+}
+hr {
+    
+   border: 5px solid lightblue;
+  border-radius: 5px;
+}
+p{
+    font-family: arial;
+    font-size: 14px;
+     color: darkblue;
+}
+ul {
+     font-family: arial;
+     font-size: 14px;
+     color: darkblue;
+
+     list-style: none;
+}
+ul li::before {
+  content: "✅";
+  display: inline-block;
+  margin-right: 0.2rem;
+     
+}
+span{
+    background-color: lightyellow;
+    
+}
+dt {
+   
+    font-family: sans-serif;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+dl{
+    font-family: arial;
+    color: darkblue;
+    font-size: 14px;
+}
+caption {
+    font-style: italic;
+}
+
+td, th {
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid darkgrey;
+  text-align: center;
+}
+th {
+  color: AliceBlue;
+  background: DarkBlue;
+  border-color: darkgrey;
+}
+h3{
+    font-family: sans-serif;
+    color: MidnightBlue;
+    font-weight: bold;
+}
+ol {
+     text-decoration: underline;
+}
+
