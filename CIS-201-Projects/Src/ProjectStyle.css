@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    background: #efefef;
+    font-family: sans-serif;
+}
+.HeshamAltourki-img
+{
+    float: right;
+    width: 40%;
+}
+.HeshamAltourki-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.about
+{
+    margin-left: 15px;
+    
+}
+.profile-info
+{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px
+        
+}
+.profile-info::-webkit-scrollbar
+{
+    width: 0px;
+}
+.profile-info h1
+{
+    margin-top: 50px;
+    margin-bottom: 30Px;
+}
+.social-media img
+{
+    height: 30px;
+    margin-right: 15px;
+}
+.social-media
+{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.profile-info h2
+{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    
+}
+.expertise img
+{
+    height: 5%;
+    margin: 5px;
+}
+.expertise 
+{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214,0.18);
+    background-color: white;
+}
+.expertise small
+{
+     padding-top: 10px;
+    display: block;
+}
+.Project img
+{
+    width: 20%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.form-box
+{
+    margin-top: 30px;
+}
+.input-group input
+{
+   width: 45%;
+   border: 0;
+   outline: none !important;
+   padding: 10px;
+   margin: 2%;
+   display: inline-block;
+   background: white;
+}
+.text-area textarea
+{
+   width: 95%;
+   border: 0;
+   outline: none !important;
+   padding: 10px;
+   margin: 2%;
+   background: white;    
+}
+.submit-btn 
+{
+   border: 0;
+   outline: none !important;
+   padding: 10px 20px;
+   margin: 2%;
+   background: #2ad0ff; 
+   cursor: pointer;
+   color: white;
+}
+.contact img 
+{
+    width: 20px;
+    margin: -5px 10px;
+}
+.contact span
+{
+    margin: 3%;
+}
+.contact
+{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}

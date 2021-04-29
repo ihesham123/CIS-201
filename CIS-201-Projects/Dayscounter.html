@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown to Zero</title>
+  <link rel="stylesheet" href="Src/ProjectStyle.css">
+
+</head>
+<body>
+
+<div class="container">
+  <h1 id="header">Days Countdown</h1>
+  <input type="number" id="daysafter" min="1" placeholder="Enter number of days"/>
+  <button onclick="startCountDown()" id="button">Start Countdown</button>
+  <p id="error" style="display: none;"></p>
+  <h1 id="headline" style="display: none;">Countdown to Zero:</h1>
+  <div id="countdown" style="display: none;">
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="Src/Js/script.js"></script>
+
+</body>
+</html>
